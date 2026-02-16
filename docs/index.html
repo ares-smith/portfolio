@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <!-- This is my take on the HTML 1 excercise for Digit100. 
+    -->
+    <head>
+        <!-- What's in the <head> element is NOT for display in a web browser! 
+            <head> stores "meta" information describing and setting up things ABOUT this HTML file. 
+            It holds important information about the website's contents. -->
+        <title>Ares HTML</title>
+       <!-- The text inside the <title> element does show in the top tab of a web browser. 
+            The <head> is where we will include info about styling the site, too.-->
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <!-- Here is a place where we can add a little styling code called CSS to this page. 
+            I used it to apply a background color to the body element.
+        -->
+        <link rel="stylesheet" type="text/css" href="style.css" />
+    </head>
+    <body>
+        <!-- CONTENT FOR DISPLAY. The <body> element holds the content we see in the display window on the web browser.-->
+        <h1>Welcome to my Site!</h1>
+        <nav>
+            <a href="index.html">Home</a> | <a href="about.html">About</a> | <a href="gallery.html">Gallery</a>
+        </nav>
+        <!-- See this <nav> element? ˆˆˆˆˆ It's for a navigation menu. 
+            We set this up with RELATIVE links to other HTML files 
+            that you will find in the same folder with this index.html. 
+        -->
+        <h2>What is this?</h2>
+        <p>This is a test for my DIGIT100 class. This is an example of a <a href="about.html">relative link</a> to a page inside the same folder.</p>
+        <p>In this, I will be practicing some <u>different HTML things</u> to try and learn how to use it properly like <i>italics</i> and <b>bolding</b> as well as including <a
+                href="https://youtu.be/QDia3e12czc">a link to an external
+            website</a> inside text.</p>
+        <h6>I'm also an artist, so here's one of my works. </h6>
+        <figure><img src="images/galadrawing.jpg"/><figcaption>A painting made of my original character based off of the painting <a href="https://en.wikipedia.org/wiki/The_Fallen_Angel_%28painting%29"><i>The Fallen Angel</i></a> by Alexandre Cabanel in 1847.</figcaption></figure>
+       
+        <h2>What did I use to make this painting?</h2>
+        <p>Using a function called an unordered list, I shall tell you!</p>
+        <ul>
+            <li>Canvas board (12x18in I believe)</li>
+            <li>Acrylic paint</li>
+            <li>Synthetic fiber paintbrushes</li>
+            <li>Several hours of work...</li>
+            <li>Water in a red solo cup</li>
+        </ul>
+        
+        <p>Some other things I painted for class.</p>
+        <ol>
+            <li>Characters (usually my own)</li>
+            <li>Landscapes (though I'm not a big fan...)</li>
+            <li>Abstract piece</li>
+            <li>Still life pieces</li>
+        </ol>
+        <figure>
+            <img src="images/newt-mosaic4.png"/>
+            <figcaption>Hey, look, a stylized image of a firebelly newt that Dr. B made as a web logo on <a href="https://newtfire.org">newtfire.org!</a></figcaption>
+        </figure> 
+    </body>
+</html>

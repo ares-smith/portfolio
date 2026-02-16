@@ -1,0 +1,21 @@
+body {
+
+    /*background:papayaWhip*/
+    background: #ffccdd;
+    font-family: Comic-sans, Arial, Helvetica, sans-serif;
+}
+
+div.side-by-side {
+    display: flex;
+}
+
+img {
+    width: 70%;
+    max-width: 600px;
+}
+
+.featureBlock {
+    background-color:#ff0066;
+    font-size: smaller;
+    color: white
+}
