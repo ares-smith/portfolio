@@ -10,8 +10,8 @@ div.side-by-side {
 }
 
 img {
-    width: 70%;
-    max-width: 600px;
+    width: 100%;
+    max-width: 800px;
 }
 
 .featureBlock {
@@ -19,3 +19,4 @@ img {
     font-size: smaller;
     color: white
 }
+/*<!-- I added some changes to the css code in my initial submission, and I'm not sure how much you'd like me to change other than what's already been done, so I haven't done much other than edit the size threshold of images. -->*/
