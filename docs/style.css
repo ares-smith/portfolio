@@ -1,6 +1,6 @@
 body {
 
-    /*background:papayaWhip*/
+    
     background: #ffccdd;
     font-family: Times-new-roman, Georgia, Garamond, serif;
 }
@@ -17,8 +17,47 @@ img {
 
 .featureBlock {
     background-color:#ff0066;
-    font-size: smaller;
-    color: white
+    color: white;
+    font:bold;
+    padding: 4px;
 }
-/*<!-- I added some changes to the css code in my initial submission, and I'm not sure how much you'd like me to change other than what's already been done, so I haven't done much other than edit the size threshold of images. -->*/
+
+figure {
+  border: 1px;
+  padding: 4px;
+  margin: auto;
+  text-align: center;
+}
+
+figcaption {
+  background-color: hotpink;
+  color: navy;
+  font-style: italic;
+  padding: 2px;
+  text-align: center;
+}
+
+a:link {
+  color: blue;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  color: blue;
+  background-color: white;
+  text-decoration: none;
+}
+
+a:hover {
+  color: green;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a:active {
+  color: white;
+  background-color: transparent;
+  text-decoration: underline;
+}
 
