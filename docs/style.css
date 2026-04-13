@@ -3,6 +3,7 @@ body {
     
     background: #ffccdd;
     font-family: Times-new-roman, Georgia, Garamond, serif;
+    font-size:large;
 }
 
 div.side-by-side {
@@ -27,6 +28,12 @@ figure {
   padding: 4px;
   margin: auto;
   text-align: center;
+}
+main
+{
+    border:20px;
+    padding:16px;
+    margin:auto;
 }
 
 figcaption {
@@ -61,3 +68,17 @@ a:active {
   text-decoration: underline;
 }
 
+.zoom
+{
+
+    transition: transform .2s;
+    text-align:center
+}
+.zoom:hover
+{
+    transform: scale(1.5);
+}
+.threeD
+{
+    text-align:center;
+}
