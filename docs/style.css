@@ -3,12 +3,11 @@ body {
     
     background: #ffccdd;
     font-family: Times-new-roman, Georgia, Garamond, serif;
-    font-size:large;
+    font-size:larger;
 }
 
 div.side-by-side {
     display: flex;
-    font-size:larger
 }
 
 img {
@@ -21,6 +20,16 @@ img {
     color: white;
     font:bold;
     padding: 4px;
+}
+.big {
+    font:bold;
+    font-size:xx-large;
+    padding:10px;
+    text-align:center;
+    border:pink;
+    border:outset;
+    background:hotpink;
+    
 }
 
 figure {
